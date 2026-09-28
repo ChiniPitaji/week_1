@@ -69,3 +69,29 @@
 //         console.log(personArray[i]);
 //     }
 // }
+
+//-->concepts of objects
+
+// const user1={
+//     firstName:"shivam",
+//     gender:"male",
+// }
+// console.log(user1["firstName"])
+
+//-------------------------------------
+const alluser=[{
+    firstName:"shivam",
+    gender:"male",
+},{
+    firstName:"kumar",
+    gender:"male",
+},{
+    firstName:"akanksha",
+    gender:"female",
+}]
+
+for(let i=0;i<alluser.length;i++){
+    if(alluser[i]["gender"]=="male"){
+        console.log(alluser[i]["firstName"]);
+    }
+}
