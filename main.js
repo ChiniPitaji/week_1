@@ -46,3 +46,9 @@
 //-->here also the same problem we can't write this code for 100 or 1000
 
 //--->-->so the concepts of loops comes into the picture
+
+let answer=0;
+for(let i=0;i<=100;i++){
+    answer=answer+i;
+}
+console.log(answer);
