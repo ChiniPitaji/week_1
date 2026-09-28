@@ -79,19 +79,32 @@
 // console.log(user1["firstName"])
 
 //-------------------------------------
-const alluser=[{
-    firstName:"shivam",
-    gender:"male",
-},{
-    firstName:"kumar",
-    gender:"male",
-},{
-    firstName:"akanksha",
-    gender:"female",
-}]
+// const alluser=[{
+//     firstName:"shivam",
+//     gender:"male",
+// },{
+//     firstName:"kumar",
+//     gender:"male",
+// },{
+//     firstName:"akanksha",
+//     gender:"female",
+// }]
 
-for(let i=0;i<alluser.length;i++){
-    if(alluser[i]["gender"]=="male"){
-        console.log(alluser[i]["firstName"]);
-    }
+// for(let i=0;i<alluser.length;i++){
+//     if(alluser[i]["gender"]=="male"){
+//         console.log(alluser[i]["firstName"]);
+//     }
+// }
+
+
+
+
+//--->concpets of functions
+
+function sum(a,b){
+    const sumValue=a+b;
+    return sumValue;
 }
+
+const value=sum(1,2);
+console.log(value);
