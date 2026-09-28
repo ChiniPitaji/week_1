@@ -47,8 +47,25 @@
 
 //--->-->so the concepts of loops comes into the picture
 
-let answer=0;
-for(let i=0;i<=100;i++){
-    answer=answer+i;
-}
-console.log(answer);
+// let answer=0;
+// for(let i=0;i<=100;i++){
+//     answer=answer+i;
+// }
+// console.log(answer);
+
+//question: print all the even numbers from the array
+// const ages=[21,22,23,24,25]
+// for(let i=0;i<ages.length;i++){
+//     if(ages[i]%2==0){
+//         console.log(ages[i]);
+//     }
+// }
+
+//question: print all the male names from the array
+// const personArray=["shivam","kumar","akanksha"]
+// const genderArray=["male","male","female"]
+// for(let i=0;i<personArray.length;i++){
+//     if(genderArray[i]=="male"){
+//         console.log(personArray[i]);
+//     }
+// }
