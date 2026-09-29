@@ -148,17 +148,56 @@
 
 // now what is u can't add the function itself,then we can use passing that functions as an argument i.e.->CALLBACK
 
-function sum(num1,num2,fntocall) {
-    let result = num1 + num2;
-    fntocall(result);
-}
+// function sum(num1,num2,fntocall) {
+//     let result = num1 + num2;
+//     fntocall(result);
+// }
 
-function displayResult(data) {
-    console.log("Result of the sum is : " + data);
-}
+// function displayResult(data) {
+//     console.log("Result of the sum is : " + data);
+// }
 
-function displayResultPassive(data) {
-    console.log("Sum's result is : " + data);
-}
-const ans=sum(1, 2,displayResult);
+// function displayResultPassive(data) {
+//     console.log("Sum's result is : " + data);
+// }
+// const ans=sum(1, 2,displayResult);
 
+
+//let's understand the concept with a new problem
+// function calculateArithmetic(a,b,type){
+//     if(type=="sum"){
+//         // return a + b;
+//         const value=sum(a,b);
+//         return value;
+//     }
+//     if(type=="minus"){
+//         // return a - b;
+//         const value=minus(a,b);
+//         return value;
+//     }
+// }
+
+// function sum(a,b){
+//     return a+b;
+// }
+
+// function minus(a,b){
+//     return a-b;
+// }
+
+// const value=calculateArithmetic(1,2,"sum"); //if "minus" a-b will be the output
+// console.log(value);
+
+//ab aisa na krke simple way mai krna ho toh
+
+// function calculateArithmetic(a,b,arithematicFinalFunction){
+//     const ans=arithematicFinalFunction(a,b);
+//     return ans;
+// }
+
+// function sum(a,b){
+//     return a+b;
+// }
+
+// const value=calculateArithmetic(1,2,sum);
+// console.log(value);
