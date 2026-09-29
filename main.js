@@ -201,3 +201,16 @@
 
 // const value=calculateArithmetic(1,2,sum);
 // console.log(value);
+
+
+
+//-->concept of setTimeout
+function greet(){
+    console.log("hello");
+}
+function greetALien(){
+    console.log("hello alien");
+}
+
+setTimeout(greetALien,3*1000) //inte seconds ke baad ye function call hoga
+setInterval(greet,1*1000)//itne- seconds ke baad ye function call hoga and it will keep on calling the function after every 1 second
