@@ -101,10 +101,64 @@
 
 //--->concpets of functions
 
-function sum(a,b){
-    const sumValue=a+b;
-    return sumValue;
+// function sum(a,b){
+//     const sumValue=a+b;
+//     return sumValue;
+// }
+
+// const value=sum(1,2);
+// console.log(value);
+
+
+
+//-----------------------------------------
+
+// function sum(num1, num2) {
+//     let result = num1 + num2;
+//     return result;
+// }
+
+// function displayResult(data) {
+//     console.log("Result of the sum is : " + data);
+// }
+
+// function displayResultPassive(data) {
+//     console.log("Sum's result is : " + data);
+// }
+// const ans=sum(1, 2);
+// displayResult(ans);
+// // You are only allowed to call one function after this
+// // How will you displayResult of a sum
+
+//we can also write as this:
+
+// function sum(num1, num2) {
+//     let result = num1 + num2;
+//     displayResult(result);
+// }
+
+// function displayResult(data) {
+//     console.log("Result of the sum is : " + data);
+// }
+
+// function displayResultPassive(data) {
+//     console.log("Sum's result is : " + data);
+// }
+// const ans=sum(1, 2);
+
+// now what is u can't add the function itself,then we can use passing that functions as an argument i.e.->CALLBACK
+
+function sum(num1,num2,fntocall) {
+    let result = num1 + num2;
+    fntocall(result);
 }
 
-const value=sum(1,2);
-console.log(value);
+function displayResult(data) {
+    console.log("Result of the sum is : " + data);
+}
+
+function displayResultPassive(data) {
+    console.log("Sum's result is : " + data);
+}
+const ans=sum(1, 2,displayResult);
+
