@@ -58,6 +58,8 @@ function concatExample(arr1, arr2) {
 }
 concatExample([1, 2, 3], [4, 5, 6]);
 
+// here the output will give original arrays : [1,2,3] [4,5,6] and after concat : [1,2,3,4,5,6] --> concat just merge the two arrays and give the output with that merged array.
+
 // forEach()
 function forEachExample(arr) {
   console.log("Original Array:", arr);
