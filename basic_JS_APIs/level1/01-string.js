@@ -67,12 +67,16 @@ function splitString(str, separator) {
 }
 splitString("Hello World", " ");
 
+//the output will give original string : Hello World and after split : [ 'Hello', 'World' ]
+
 // trim
 function trimString(str) {
   console.log("Original String:", str);
   console.log("After trim:", str.trim());
 }
 trimString(" Hello World ");
+
+//the output will give original string :  Hello World  and after trim : Hello World --> trim just remove the extra space from the string and give the output without space
 
 // toUpperCase
 function toUpper(str) {
