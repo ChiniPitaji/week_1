@@ -25,6 +25,8 @@ function popExample(arr) {
 }
 popExample([1, 2, 3]);
 
+// here the output will give original array : [1,2,3] and after pop : [1,2] --> pop just remove the last element from the array and give the output without that element.
+
 // shift()
 function shiftExample(arr) {
   console.log("Original Array:", arr);
