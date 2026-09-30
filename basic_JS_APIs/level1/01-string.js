@@ -39,12 +39,17 @@ function getSlice(str, start, end) {
 }
 getSlice("Hello World", 0, 5);
 
+//the output will give original string : Hello World and after slice : Hello
+//sub.str will give the value till the assign index but after that it count from that indeex to the assigned last index like shivam (2,3) will give iva. 
+
 // substring
 function getSubstring(str, start, end) {
   console.log("Original String:", str);
   console.log("After substring:", str.substring(start, end));
 }
 getSubstring("Hello World", 0, 5);
+
+//the output will give original string : Hello World and after substring : Hello
 
 // replace
 function replaceString(str, target, replacement) {
