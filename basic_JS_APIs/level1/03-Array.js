@@ -47,6 +47,8 @@ function unshiftExample(arr, element) {
 }
 unshiftExample([1, 2, 3], 0);
 
+// here the output will give original array : [1,2,3] and after unshift : [0,1,2,3] --> unshift just add the element at the start of the array and give the output with that element.
+
 // concat()
 function concatExample(arr1, arr2) {
   console.log("Original Arrays:", arr1, arr2);
