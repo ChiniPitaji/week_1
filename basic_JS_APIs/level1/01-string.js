@@ -21,12 +21,16 @@ function findIndexOf(str, target) {
 }
 findIndexOf("Hello World", "World");
 
+//the output will give original string : Hello World and index : 6
+
 // lastIndexOf
 function findLastIndexOf(str, target) {
   console.log("Original String:", str);
   console.log("Index:", str.lastIndexOf(target));
 }
 findLastIndexOf("Hello World World", "World");
+
+//the output will give original string : Hello World World and index : 12
 
 // slice
 function getSlice(str, start, end) {
