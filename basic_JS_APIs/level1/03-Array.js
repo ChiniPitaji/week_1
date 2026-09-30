@@ -70,6 +70,8 @@ function forEachExample(arr) {
 }
 forEachExample([1, 2, 3]);
 
+// here the output will give original array : [1,2,3] and after forEach : 1 0 2 1 3 2 --> forEach just iterate over the array and give the output with that element and its index.
+
 // map()
 function mapExample(arr) {
   console.log("Original Array:", arr);
@@ -80,6 +82,8 @@ function mapExample(arr) {
   console.log("After map:", newArr);
 }
 mapExample([1, 2, 3]);
+
+// here the output will give original array : [1,2,3] and after map : [2,4,6] --> map just iterate over the array and give the output with that element multiplied by 2.
 
 // filter()
 function filterExample(arr) {
@@ -92,6 +96,8 @@ function filterExample(arr) {
 }
 filterExample([1, 2, 3, 4, 5]);
 
+// here the output will give original array : [1,2,3,4,5] and after filter : [4,5] --> filter just iterate over the array and give the output with that element which is greater than 3.
+
 // find()
 function findExample(arr) {
   console.log("Original Array:", arr);
@@ -103,6 +109,8 @@ function findExample(arr) {
 }
 findExample([1, 2, 3, 4, 5]);
 
+// here the output will give original array : [1,2,3,4,5] and after find : 4 --> find just iterate over the array and give the output with that element which is greater than 3 but it will return only the first element which is greater than 3.
+
 // sort()
 function sortExample(arr) {
   console.log("Original Array:", arr);
@@ -113,3 +121,5 @@ function sortExample(arr) {
   console.log("After sort:", arr);
 }
 sortExample([5, 2, 3, 4, 1]);
+
+// here the output will give original array : [5,2,3,4,1] and after sort : [1,2,3,4,5] --> sort just sort the array in ascending order and give the output with that sorted array.
