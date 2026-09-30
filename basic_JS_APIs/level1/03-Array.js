@@ -36,6 +36,8 @@ function shiftExample(arr) {
 }
 shiftExample([1, 2, 3]);
 
+// here the output will give original array : [1,2,3] and after shift : [2,3] --> shift just remove the first element from the array and give the output without that element.
+
 // unshift()
 function unshiftExample(arr, element) {
   console.log("Original Array:", arr);
