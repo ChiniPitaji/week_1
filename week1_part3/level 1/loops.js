@@ -27,3 +27,5 @@ function findSum(num){
 
 let ans=findSum(100)
 console.log(ans);
+
+//callback functions : function calling another function
